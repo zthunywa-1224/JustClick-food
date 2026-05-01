@@ -1,4 +1,22 @@
-.img-pack {
-    height: 150px,
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
 
+.img {
+    max-height: 100%;
+    height: auto;
+    display: block;
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card {
+    flex: 1 1 300px;
 }
